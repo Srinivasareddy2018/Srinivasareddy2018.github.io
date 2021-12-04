@@ -1,77 +1,120 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Srinivas-Blogs</title>
-    </head>
-    <body>
-        <h1>
-            Srinivas-Blogs --- Introduction to HTML
-        </h1>
 
-        <dl>
-            <!-- 1 -->
-            <dt>What is HTML?</dt>
-            <dd>
-                <ul>
-                    <li>Hypertext Markup Language</li>
-                    <li>Defines structure and content of web page</li>
-                    <li>Declarative Language</li>
-                </ul>
-            </dd>
+<html lang="en-IN" dir="ltr">
 
-            <!-- 2 -->
-            <dt>Syntax of HTML</dt>
-            <dd>
-                <pre>
-                    <code>
-                                  Content
-                             ________|________
-                            |                 |
-                        &lt;p&gt; This is a paragraph &lt;/p&gt;
-                        |_|                     |___|
-                         |                        |
-                        Opening Tag          Closing Tag
-                    </code>
-                </pre>
-            </dd>
+<head>
+    <title>Srinivas Reddy | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-            <!-- 3 -->
-            <dt>
-                Paragrahs
-            </dt>
-            <dd>
-                &lt;p&gt; This is a paragraph &lt;/p&gt;
-            </dd>
-            <br>
+<body>
+    <main>
+        <!-- About Me -->
+        <header class="divider content-wrap">
+            <h1>Srinivas Reddy</h1>
+            <h2>Web Developer</h2>
+            <p>Looking for a position in a reputed organization to
+                utilize my technical and management skills where I
+                can design and implement solutions for the growth of
+                the company and to enhance my knowledge in the IT
+                domain.
+            </p>
+        </header>
 
-            <!-- 4 -->
-            <dt>Headlines</dt>
-            <dd>
-                6 types of Headlines
-                <ol>
-                    <li>&lt;h1&gt;</li>
-                    <li>&lt;h2&gt;</li>
-                    <li>&lt;h3&gt;</li>
-                    <li>&lt;h4&gt;</li>
-                    <li>&lt;h5&gt;</li>
-                    <li>&lt;h6&gt;</li>
-                </ol>
-                H1 is most prominent while H6 is less less prominent
-            </dd>
-            <br>
+        <!-- Education -->
+        <section class="divider content-wrap education">
+            <h2>Education</h2>
 
-            <!-- 5 -->
-            <dt>Bold and Italics</dt>
-            <dd>
-                Four Elements
-                <ul>
-                    <li>&lt;em&gt;</li>
-                    <li>&lt;i&gt;</li>
-                    <li>&lt;b&gt;</li>
-                    <li>&lt;stong&gt;</li>
-                </ul>
-                Em and strong elements are for semantics, b and i are only for visual elements
-            </dd>
-        </dl>
-    </body>
+            <!-- University -->
+            <section>
+                <h3>Amrita School of Engineering</h3>
+                <p>B. Tech in Computer Science and Engineering</p>
+                <p>July 2017 - June 2021</p>
+                <p>CGPA: 7.27</p>
+            </section>
+
+            <!-- Pre-University -->
+            <section>
+                <h3>Narayana Junior College</h3>
+                <p>Higher Secondary Education</p>
+                <p>August 2015 - June 2017</p>
+                <p>Perventage: 93.9</p>
+            </section>
+
+            <!-- Secondary Education -->
+            <section>
+                <h3>Good Shepherd English School</h3>
+                <p>Secondary Education</p>
+                <p>April 2015</p>
+                <p>GPA: 8.8</p>
+            </section>
+        </section>
+
+        <!-- Projects -->
+        <section class="divider content-wrap project">
+            <h2>Projects</h2>
+            <!-- Project 1 -->
+            <section>
+                <h3>Cab Hiring</h3>
+                <p>12/2020 – 04/2021</p>
+                <p><b>Technologies Used: </b> HTML, CSS, JavaScript, PHP, MySQL Database</p>
+                <p>Developed a web application which helps users to
+                    check availability of cars and to book available cars
+                    based on requirements.</p>
+                <a class="button" href="#">View on Github</a>
+            </section>
+
+            <!-- Project 2 -->
+            <section>
+                <h3>Bill Management System</h3>
+                <p>06/2019 – 12/2019</p>
+                <p><b>Technologies Used: </b> HTML, CSS, JavaScript, PHP, MySQL Database</p>
+                <p>Developed a management system to help users to
+                    keep track of all tax bills at one place.</p>
+                <a class="button" href="#">View on Github</a>
+            </section>
+        </section>
+
+        <!-- Courses -->
+        <section class="content-wrap divider">
+            <h2>Courses</h2>
+            <ul>
+                <li>HTML Essential Training</li>
+                <li>CSS Essential Training</li>
+                <li>Introduction to Python</li>
+                <li>Intermediate Python</li>
+                <li>Introduction to Keras</li>
+                <li>Introduction to Deep Learning</li>
+            </ul>
+        </section>
+
+        <!-- Social Media -->
+        <footer class="content-wrap">
+            <h2>Let's Keep in Touch</h2>
+            <ul class="contact-list">
+                <li>
+                    <a href="https://t.me/GodOfErrors">
+                        <i class="fa fa-telegram"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://linkedin.com/srinivasreddy3119">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:srinivasreddy3119@protonmail.com">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </main>
+</body>
+
 </html>
